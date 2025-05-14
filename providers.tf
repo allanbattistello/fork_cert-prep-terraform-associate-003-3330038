@@ -8,14 +8,14 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
-  profile = "Helen"
+  region = "eu-north-1"
+  profile = "Allan"
   # Configuration options
 }
 
 provider "aws" {
-  alias = "west"
-  region = "us-west-1"
-  profile = "Helen"
+  alias = "central"
+  region = "eu-central-1"
+  profile = "Allan"
 }
 
